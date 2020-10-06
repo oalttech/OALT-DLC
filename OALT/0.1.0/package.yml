@@ -1,6 +1,64 @@
 # Simple package
 
-name: OALT
+name: OALT-DLC
 parent: default
 
 matches:
+  
+  - trigger: ":dothr"
+    replace: '<hr class="dotted">'
+    
+  - trigger: ":pintro"
+    replace: '<p class="intro-paragraph">'
+    
+  - trigger: ":quotediv"
+    replace: |
+              <div class="editor-indent" style="margin-left: 20px; margin-right: 50px; margin-top: 50px; margin-bottom:50px">
+                <q style="font-size: 1.25em; line-height: 1.5em; margin-bottom: 1.5rem; margin-left: -5px;">
+                  <em>$|$Quote text</em>
+                </q>
+                <p>(Reference text)</p>
+              </div>
+  - trigger: ":intextref"
+    replace: |    
+              <p class="in-text-reference">$|$</p>
+  - trigger: ":ytfullwide"
+    replace: |
+              <div class="no-overflow">
+                <div style="position: relative;">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJAQMAAAAB5D5xAAAAA1BMVEX///+nxBvIAAAACklEQVQI12PADQAAGwABCuPkfAAAAABJRU5ErkJggg==" width="100%">
+                  <iframe style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; bottom: 0; right: 0;" src="{{clipboard}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+        
+  - trigger: ":acthead"
+    replace:  |
+              <h4 class="activty-header">Discuss</h4>
+              <h4 class="activty-header">Read</h4>
+              <h4 class="activty-header">Listen</h4>
+              <h4 class="activty-header">Watch</h4>
+              <h4 class="activty-header">Workbook activity</h4>
+
+  - trigger: ":btt"
+    replace: |
+              <a href="#">Back to top</a>
+
+  - trigger: ":disforum"
+    replace: |
+              <iframe name="discussionID=3e48f471-2e3b-481e-aac3-00000000000003" src="https://usqstudydesk.usq.edu.au/m2/mod/lti/launch.php?id=1572281"></iframe>
+              
+  - trigger: ":wbkact"
+    replace: |
+              <a href="https://google.com" target="_blank" class="activity-banner">
+                <div class="activity-banner-text">
+                  <div class="activity-banner-top-text"></div>
+                  <div class="activity-banner-bottom-text">Insert workbook activity text here</div>
+                </div>
+              </a>
+
+  - trigger: ":table"
+    replace: |
+              <table cellspacing="0" cellpadding="0" border="0" class="alternating-table">
