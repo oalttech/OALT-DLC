@@ -55,7 +55,7 @@ matches:
               <a href="https://google.com" target="_blank" class="activity-banner">
                 <div class="activity-banner-text">
                   <div class="activity-banner-top-text"></div>
-                  <div class="activity-banner-bottom-text">Insert workbook activity text here</div>
+                  <div class="activity-banner-bottom-text">$|$</div>
                 </div>
               </a>
 
