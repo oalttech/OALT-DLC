@@ -15,4 +15,14 @@ $ espanso install OALT-DLC https://github.com/oalttech/OALT-DLC --external
 ````
 # Version Log
 ## V 1.0
+ - :dothr - Horizontal Dotted Rule
+ - :pintro - Intro Paragraph
+ - :quotediv - Quote
+ - :intextref - In Text Reference
+ - :ytfullwide - Full Width Youtube, generated from embed url in clipboard
+ - :acthead - Activity Headers
+ - :btt - Back to Top
+ - :disforum - Embedded Discussion Forum
+ - :wbkact - Workbook Activity
+ - :table - Table insert
 ### Commands
