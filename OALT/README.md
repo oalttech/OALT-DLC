@@ -11,7 +11,7 @@ Collections of various shortcuts for OALT at USQ
 # Installation Instructions
 To install run the following command using Terminal or CMD
 ```
-$ espanso install OALT https://github.com/oalttech/OALT-DLC --external
+$ espanso install OALT-DLC https://github.com/oalttech/OALT-DLC --external
 ````
 # Version Log
 ## V 1.0
