@@ -34,12 +34,24 @@ matches:
       - name: "clipboard"
         type: "clipboard"
         
-  - trigger: ":acthead"
+  - trigger: ":actheadd"
     replace:  |
               <h4 class="activty-header">Discuss</h4>
+              
+  - trigger: ":actheadr"
+    replace:  | 
               <h4 class="activty-header">Read</h4>
+              
+  - trigger: ":actheadl"
+    replace:  |
               <h4 class="activty-header">Listen</h4>
+              
+  - trigger: ":actheadwa"
+    replace:  |
               <h4 class="activty-header">Watch</h4>
+              
+  - trigger: ":actheadwo"
+    replace:  |
               <h4 class="activty-header">Workbook activity</h4>
 
   - trigger: ":btt"
