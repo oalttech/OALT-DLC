@@ -21,7 +21,11 @@ $ espanso install OALT-DLC https://github.com/oalttech/OALT-DLC --external
     - :quotediv - Quote
     - :intextref - In Text Reference
     - :ytfullwide - Full Width Youtube, generated from embed url in clipboard
-    - :acthead - Activity Headers
+    - :actheadd - Discussion Activity Header
+    - :actheadr - Read Activity Header
+    - :actheadl - Listen Activity Header
+    - :actheadwa - Watch Activity Header
+    - :actheadwo - Workbook Activity Header
     - :btt - Back to Top
     - :disforum - Embedded Discussion Forum
     - :wbkact - Workbook Activity
